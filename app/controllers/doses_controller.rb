@@ -1,4 +1,3 @@
-require 'pry-byebug'
 class DosesController < ApplicationController
  # before_action :set_cocktail, only: [:show]
 

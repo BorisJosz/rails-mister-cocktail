@@ -5,6 +5,7 @@
     <%= link_to cocktail_path(cocktail) do %>
     <%= cocktail.name %>
     <% end %>
+    <%= cl_image_tag cocktail.photo, height: 50, width: 50, crop: :fill %>
   </li>
 </ul>
 <% end %>

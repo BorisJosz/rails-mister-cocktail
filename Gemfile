@@ -6,6 +6,8 @@ git_source(:github) do |repo_name|
 end
 
 gem 'figaro'
+gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
 gem "font-awesome-rails"
 ruby "2.4.3"
 gem 'bootstrap-sass'

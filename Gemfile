@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'figaro'
+gem "font-awesome-rails"
 ruby "2.4.3"
 gem 'bootstrap-sass'
 gem 'simple_form'
